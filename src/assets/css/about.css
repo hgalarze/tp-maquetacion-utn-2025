@@ -1,0 +1,22 @@
+.about-us img {
+	max-width: 400px;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-us {
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+
+.about-us p {
+	margin-bottom: 64px;
+}
+
+@media (max-width: 576px) {
+	.about-us img {
+		max-width: inherit;
+	}
+}

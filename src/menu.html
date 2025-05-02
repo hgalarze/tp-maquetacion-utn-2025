@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es" class="h-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>McFood - Menú</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="d-flex flex-column h-100">
+    <header class="position-fixed top-0 left-0 w-100 z-1">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fw-bold d-flex gap-3 fs-4" href="index.html">
+            <svg width="36" height="32" viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M25.8749 2.48878C28.9812 2.48878 31.4983 15.5745 31.4983 31.7156H36C36 14.3315 31.4663 0.240234 25.8749 0.240234C22.6935 0.240234 19.8555 4.47621 18 11.0982C16.1445 4.47621 13.3065 0.240234 10.1251 0.240234C4.53509 0.240234 0 14.3315 0 31.7156H4.50174C4.50174 15.5745 7.02015 2.48878 10.1251 2.48878C13.2314 2.48878 15.7498 14.5676 15.7498 29.4671H20.2502C20.2502 14.5676 22.7686 2.48878 25.8749 2.48878Z"
+                fill="#FFBC0D"></path>
+            </svg>
+            McFood
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link fw-semibold" aria-current="page" href="index.html">Inicio</a>
+              <a class="nav-link fw-semibold active" href="menu.html">Menú</a>
+              <a class="nav-link fw-semibold" href="nosotros.html">Nosotros</a>
+              <a class="nav-link fw-semibold" href="contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero d-flex flex-column justify-content-center gap-2 py-5">
+        <div class="d-block mx-auto mb-4">
+          <svg width="100" height="100" viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M25.8749 2.48878C28.9812 2.48878 31.4983 15.5745 31.4983 31.7156H36C36 14.3315 31.4663 0.240234 25.8749 0.240234C22.6935 0.240234 19.8555 4.47621 18 11.0982C16.1445 4.47621 13.3065 0.240234 10.1251 0.240234C4.53509 0.240234 0 14.3315 0 31.7156H4.50174C4.50174 15.5745 7.02015 2.48878 10.1251 2.48878C13.2314 2.48878 15.7498 14.5676 15.7498 29.4671H20.2502C20.2502 14.5676 22.7686 2.48878 25.8749 2.48878Z"
+              fill="#FFBC0D"></path>
+          </svg>
+        </div>
+        <h1 class="display-5 fw-bold text-white">
+          <i class="bi bi-menu-up me-3"></i>Menú
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 px-2">Descubrí todas nuestras deliciosas opciones</p>
+        </div>
+      </section>
+
+
+      <section class="destacados">
+        <h2 class="fw-semibold text-center">Nuestro Menú</h2>
+        <div class="container-fluid">
+          <div class="row justify-content-center gy-4">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center">
+              <a href="menu-hamburguesas.html" class="link-underline link-underline-opacity-0">
+                <div class="card h-100">
+                  <img src="assets/img/big-mac.jpg" alt="Big mac" />
+                  <h3 class="flex-fill px-2 text-center fw-bold">Hamburguesas</h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center">
+              <a href="menu-pollo.html" class="link-underline link-underline-opacity-0">
+                <div class="card h-100">
+                  <img src="assets/img/mcCrispy-Chicken-Deluxe.jpg" alt="Sandwiches de Pollo" />
+                  <h3 class="flex-fill px-2 text-center fw-bold">Sandwiches de Pollo</h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center">
+              <a href="menu-papas.html" class="link-underline link-underline-opacity-0">
+                <div class="card h-100">
+                  <img src="assets/img/papas-grandes.jpg" alt="Papas y complementos" />
+                  <h3 class="flex-fill px-2 text-center fw-bold">Papas y Complementos</h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center">
+              <a href="menu-gaseosas.html" class="link-underline link-underline-opacity-0">
+                <div class="card h-100">
+                  <img src="assets/img/coca-cola-grande.jpg" alt="Bebidas" />
+                  <h3 class="flex-fill px-2 text-center fw-bold">Bebidas</h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center">
+              <a href="menu-postres.html" class="link-underline link-underline-opacity-0">
+                <div class="card h-100">
+                  <img src="assets/img/cono-combinado.jpg" alt="Postres" />
+                  <h3 class="flex-fill px-2 text-center fw-bold">Postres</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+      </section>
+
+
+
+      <!-- <section class="destacados">
+        <h2>Nuestro Menú</h2>
+        <div class="card-container">
+          <a href="menu-hamburguesas.html" class="limpio">
+            <div class="card">
+              <img src="assets/img/big-mac.png" alt="Combo 1" />
+              <h3>Hamburguesas</h3>
+            </div>
+          </a>
+          <a href="menu-pollo.html">
+          <div class="card">
+            <img src="assets/img/mcCrispy-Chicken-Deluxe.png" alt="Combo 2" />
+            <h3>Sandwiches de Pollo</h3>
+          </div>
+        </a>
+        <a href="menu-papas.html">
+          <div class="card">
+            <img src="assets/img/papas-grandes.png" alt="Combo 3" />
+            <h3>Papas y Complementos</h3>
+          </div>
+        </a>
+        <a href="menu-gaseosas.html">
+          <div class="card">
+            <img src="assets/img/coca-cola-grande.png" alt="Combo 4" />
+            <h3>Bebidas</h3>
+          </div>
+        </a>
+        <a href="menu-postres.html">
+          <div class="card">
+            <img src="assets/img/cono-combinado.png" alt="Combo 5" />
+            <h3>Postres</h3>
+          </div>
+        </a>
+        </div>
+      </section> -->
+    </main>
+
+    <footer class="footer mt-auto py-3">
+      <p>&copy; 2025 McFood. Todos los derechos reservados.</p>
+    </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
